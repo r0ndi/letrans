@@ -1,0 +1,14 @@
+{
+    "errors": {
+        "invalid-creadentials": "Invalid credentials",
+        "invalid-user-data": "Invalid user data",
+        "data-save-error": "Data save error",
+        "error-occured": "Error occured"
+    },
+    "success": {
+        "user-has-been-deleted": "Account has been deleted",
+        "user-updated": "User updated!",
+        "user-translation-saved": "Translation saved!",
+        "user-translation-deleted": "Translation deleted!"
+    }
+}

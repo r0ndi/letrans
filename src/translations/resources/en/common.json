@@ -1,0 +1,90 @@
+{
+    "page": {
+        "register": {
+            "title": "Sign Up"
+        },
+        "login": {
+            "title": "Sign In"
+        },
+        "user-translation-list": {
+            "title": "Translations"
+        },
+        "translator-quiz": {
+            "title": "Translate Quiz"
+        }
+    },
+    "component": {
+        "copyright": {
+            "title": "Copyright ©",
+            "description": "Letrans"
+        },
+        "login-form": {
+            "submit-button": "Sign In",
+            "home-redirect": "Back to homepage",
+            "register-redirect": "Don't have an account? Sign Up"
+        },
+        "register-form": {
+            "submit-button": "Sign Up",
+            "home-redirect": "Back to homepage",
+            "login-redirect": "Do you have an account? Sign In"
+        },
+        "suspense-fallback": {
+            "loading-massage": "Loading..."
+        },
+        "user-menu": {
+            "account-details": "Account details",
+            "account-delete": "Delete account",
+            "logout": "Logout"
+        },
+        "translator-result": {
+            "translation-title": "Translation: ",
+            "translation-save-btn": "Save translation"
+        },
+        "application-title": {
+            "title": "LETRANS",
+            "title-description": "Translate & Learn",
+            "btn": {
+                "sign-in": "Sign in",
+                "create-account": "Create account",
+                "translations": "Translations",
+                "quiz": "Quiz time"
+            }
+        },
+        "user-translation-list": {
+            "not-found": "Not found active translations",
+            "header-source-translation": "Source translation",
+            "header-target-translation": "Target translation",
+            "header-status": "Status",
+            "header-action": "Action",
+            "action-delete": "delete"
+        },
+        "translator-quiz-form": {
+            "invalid-translation": "Invalid translation - try again later",
+            "correct-translation": "Correct translation",
+            "form-title": "Type translation to: ",
+            "translations-not-found": "Great job! User translations not found."
+        },
+        "user-details-edit": {
+            "title": "User edit",
+            "submit-button": "Save user details"
+        }
+    },
+    "forms": {
+        "user": {
+            "email": "Email Address",
+            "password": "Password",
+            "firstname": "Firstname",
+            "lastname": "Lastname"
+        },
+        "translator": {
+            "submit": "Translate",
+            "phrase": "Phrase to translate..",
+            "sourceLanguage": "Source language",
+            "targetLanguage": "Target language"
+        },
+        "translator-quiz": {
+            "translation": "Translation",
+            "submit": "Check sentence"
+        }
+    }
+}
