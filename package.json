@@ -22,7 +22,10 @@
     "react-i18next": "^11.8.5",
     "react-notifications-component": "^3.0.3",
     "react-scripts": "4.0.1",
-    "typescript": "^4.0.3"
+    "typescript": "^4.0.3",
+    "copyfiles": "^2.4.1",
+    "cpy-cli": "^3.1.1",
+    "move-cli": "^1.2.1"
   },
   "devDependencies": {
     "@types/enzyme": "^3.10.8",
@@ -39,8 +42,11 @@
   "scripts": {
     "test": "react-scripts test",
     "start": "react-scripts start",
-    "build": "react-scripts build",
-    "lint": "./node_modules/tslint/bin/tslint -c tslint.json src/**/*.{ts,tsx} --fix --format verbose"
+    "lint": "./node_modules/tslint/bin/tslint -c tslint.json src/**/*.{ts,tsx} --fix --format verbose",
+    "build": "react-scripts build && npm run copy-htaccess && npm run delete-build && npm run copy-build",
+    "delete-build": "del-cli --force ./../public_html",
+    "copy-htaccess": "copyfiles .htaccess ./build/",
+    "copy-build": "move-cli --md ./build ./../public_html"
   },
   "eslintConfig": {
     "extends": [
